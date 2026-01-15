@@ -18,6 +18,8 @@ public class Room : MonoBehaviour
             Debug.Log("Escena equivocada");
         }
         roomFloor.transform.localScale = new Vector3(witdh, anchura, heigth);
+
+        RoomController.Instance.RegisterRoom(this);
     }
     private void OnDrawGizmos()
     {
