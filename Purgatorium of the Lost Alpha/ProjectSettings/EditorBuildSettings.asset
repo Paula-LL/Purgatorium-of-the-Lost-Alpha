@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ProceduralGenerationTestScene.unity
     guid: cca2ca57ea079264eb215117ca38916f
   - enabled: 1
-    path: Assets/Scenes/IraLuguria.unity
+    path: Assets/Scenes/IraLuguriaStart.unity
     guid: 1ec30d39e097f5d43b1479052d23bd27
   m_configObjects: {}
