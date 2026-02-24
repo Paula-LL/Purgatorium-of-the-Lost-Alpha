@@ -38,14 +38,14 @@ public class DungeonGenerator : MonoBehaviour
     //private List<Enemy> _enemyInstances;
     #endregion
 
-    private enum ROOM_DIRECTIONS { UP, RIGHT, DOWN, LEFT }
-    private class DungeonRoom
+    public enum ROOM_DIRECTIONS { UP, RIGHT, DOWN, LEFT }
+    public class DungeonRoom
     {
         public int xPosition;
         public int zPosition;
         public int NeighboursCount { get { return _neighbours.Count; } }
 
-        private List<Tuple<ROOM_DIRECTIONS, DungeonRoom>> _neighbours;
+        public List<Tuple<ROOM_DIRECTIONS, DungeonRoom>> _neighbours;
         public List<Tuple<ROOM_DIRECTIONS, DungeonRoom>> Neighbours { get { return _neighbours; } }
 
         public RoomTypes type = RoomTypes.INVALID;
