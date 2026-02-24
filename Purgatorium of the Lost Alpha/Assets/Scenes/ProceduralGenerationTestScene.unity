@@ -133,8 +133,7 @@ GameObject:
   - component: {fileID: 178947861}
   - component: {fileID: 178947860}
   - component: {fileID: 178947859}
-  - component: {fileID: 178947863}
-  - component: {fileID: 178947864}
+  - component: {fileID: 178947862}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -216,7 +215,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 27.3, y: 0, z: 0}
---- !u!114 &178947863
+--- !u!114 &178947862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,50 +224,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 178947858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Script: {fileID: 11500000, guid: a6bff12eefef7d445a9576d7eb713cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &178947864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178947858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 495698e06accc8c4796f18716c3937b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 821996545}
-  roomPrefabs:
-  - {fileID: 8094101817680512365, guid: cddaffc2a71925744afbfb8321304d1a, type: 3}
-  - {fileID: 6672852833112360153, guid: 9c5a45e48a4cfe946b0e137e1a9ac1b5, type: 3}
-  - {fileID: 1782543852169167059, guid: b3639c99cd1c7594bbf4143948b426e7, type: 3}
-  - {fileID: 5915079281721925564, guid: 2ca7b8e06c13cab49af6bd87d730f402, type: 3}
-  - {fileID: 2309581954919260429, guid: 78dd470468befc64ea6dcc1c05b6925d, type: 3}
+  player: {fileID: 821996553}
+  offset: {x: -10, y: 10, z: -10}
+  smoothSpeed: 5
 --- !u!1 &821996545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
@@ -553,6 +514,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &821996553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
+  m_PrefabInstance: {fileID: 1376249160}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1182607701
 GameObject:
   m_ObjectHideFlags: 0
