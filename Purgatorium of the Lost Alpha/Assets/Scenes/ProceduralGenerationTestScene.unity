@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 178947860}
   - component: {fileID: 178947859}
   - component: {fileID: 178947862}
+  - component: {fileID: 178947863}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -208,8 +209,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178947858}
   serializedVersion: 2
-  m_LocalRotation: {x: -1.05265675e-16, y: 0.00000017092017, z: 1.7992027e-23, w: 1}
-  m_LocalPosition: {x: 0, y: 39.6, z: -80.649994}
+  m_LocalRotation: {x: 0.21621495, y: -0.7741529, z: 0.34571615, w: 0.48416817}
+  m_LocalPosition: {x: 42.43648, y: 52.654217, z: 20.65624}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -230,6 +231,40 @@ MonoBehaviour:
   player: {fileID: 821996553}
   offset: {x: -10, y: 10, z: -10}
   smoothSpeed: 5
+--- !u!114 &178947863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178947858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &821996545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
@@ -548,6 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1623fbf05a4dcf4dae6f3db666079ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dungeonRoomInstances: []
   roomPrefabs:
   - {fileID: 8094101817680512365, guid: cddaffc2a71925744afbfb8321304d1a, type: 3}
   - {fileID: 6672852833112360153, guid: 9c5a45e48a4cfe946b0e137e1a9ac1b5, type: 3}
@@ -558,7 +594,7 @@ MonoBehaviour:
   - {fileID: 9223138231268577204, guid: d9ef5e7d65cb2e146be4ed8f159d1e8b, type: 3}
   - {fileID: 844485562190532453, guid: ded582e8992f53b4aa3ffd163e5a2889, type: 3}
   - {fileID: 2932796424259655448, guid: 1c1c906fea392e148b3398147e961022, type: 3}
-  numberOfRooms: 20
+  numberOfRooms: 100
 --- !u!4 &1182607703
 Transform:
   m_ObjectHideFlags: 0

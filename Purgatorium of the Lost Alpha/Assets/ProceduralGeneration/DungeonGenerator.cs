@@ -28,7 +28,7 @@ public class DungeonGenerator : MonoBehaviour
 
     private Queue<DungeonRoom> _pendingRooms;
     private List<DungeonRoom> _dungeonRooms;
-    private List<GameObject> _dungeonRoomInstances;
+    public List<GameObject> _dungeonRoomInstances;
     private List<GameObject> _propInstances;
 
     public List<GameObject> roomPrefabs;
