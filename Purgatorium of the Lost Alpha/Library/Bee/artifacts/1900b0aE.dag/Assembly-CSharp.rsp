@@ -358,6 +358,8 @@
 "Assets/BossScripts/Ataque1.cs"
 "Assets/BossScripts/Ataque2.cs"
 "Assets/BossScripts/BossHealth.cs"
+"Assets/PlayerAttack.cs"
+"Assets/PlayerController.cs"
 "Assets/Scenes/Enemigos/ScriptsEnemigos/EnemigoBase.cs"
 "Assets/Scenes/Enemigos/ScriptsEnemigos/EnemigoDist.cs"
 "Assets/Scenes/Enemigos/ScriptsEnemigos/ProyectilBase.cs"

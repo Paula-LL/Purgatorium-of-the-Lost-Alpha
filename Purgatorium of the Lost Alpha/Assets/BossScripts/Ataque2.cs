@@ -7,7 +7,7 @@ public class Ataque2 : MonoBehaviour
     [Tooltip("Tag del objeto jugador.")]
     [SerializeField] private string etiquetaJugador = "Player";
     [Tooltip("Distancia máxima para que el ataque se active.")]
-    [SerializeField] private float rangoDeteccion = 10f;
+    [SerializeField] private float rangoDeteccion = 20f;
 
     [Header("Collider de Ataque")]
     [Tooltip("BoxCollider con Is Trigger activado que define la zona de daño.")]
@@ -30,7 +30,7 @@ public class Ataque2 : MonoBehaviour
     [SerializeField] private float tiempoEntreAtaques = 5f;
 
     [Header("Daño")]
-    [SerializeField] private int danio = 25;
+    [SerializeField] private int danio = 1;
 
     private static readonly Color ColorAviso  = new Color(1f, 1f, 0f, 0.35f);
     private static readonly Color ColorAtaque = new Color(1f, 0f, 0f, 0.45f);
@@ -141,9 +141,8 @@ public class Ataque2 : MonoBehaviour
 
         if (other.CompareTag(etiquetaJugador))
         {
-            // TODO: Player_controller pc = other.GetComponent<Player_controller>();
-            // if (pc != null) pc.RecibirDanio(danio);
-            Debug.Log($"[Ataque2] Jugador recibió {danio} de daño.");
+            PlayerController pc = other.GetComponent<PlayerController>();
+            if (pc != null) pc.TakeDamage(danio);
         }
     }
 
