@@ -283,8 +283,8 @@ GameObject:
   - component: {fileID: 6479499444581127471}
   - component: {fileID: 8619348788241482699}
   m_Layer: 0
-  m_Name: 'ColliderPuerta1 '
-  m_TagString: Untagged
+  m_Name: ColliderPuerta
+  m_TagString: Puerta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -546,8 +546,8 @@ GameObject:
   - component: {fileID: 5202672716957504531}
   - component: {fileID: 3988756158147955226}
   m_Layer: 0
-  m_Name: ColliderPuerta2
-  m_TagString: Untagged
+  m_Name: ColliderPuerta
+  m_TagString: Puerta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -914,8 +914,8 @@ GameObject:
   - component: {fileID: 47334427925495612}
   - component: {fileID: 4526684943124946894}
   m_Layer: 0
-  m_Name: ColliderPuerta3
-  m_TagString: Untagged
+  m_Name: ColliderPuerta
+  m_TagString: Puerta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1073,6 +1073,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 21e80645897f32c4d957c7c7c51f5406, type: 2}
+    - target: {fileID: 1835557735704993379, guid: a319656beb0657d478eeaa0a494c5e14, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 7260117731410606328}
     - target: {fileID: 2616755681972008485, guid: a319656beb0657d478eeaa0a494c5e14, type: 3}
       propertyPath: roomChooser
       value: 

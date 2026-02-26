@@ -76,7 +76,7 @@ public class DungeonGenerator : MonoBehaviour
     private void Awake()
     {
         s = this;
-
+        GenerateDungeon();
     }
 
     /*private void LoadRoomPrefabs()
@@ -99,10 +99,6 @@ public class DungeonGenerator : MonoBehaviour
     }*/
 
     // Start is called before the first frame update
-    void Start()
-    {
-        GenerateDungeon();
-    }
 
 
     #region Dungeon Generation

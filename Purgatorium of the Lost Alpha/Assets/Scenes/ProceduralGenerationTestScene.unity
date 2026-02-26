@@ -133,8 +133,8 @@ GameObject:
   - component: {fileID: 178947861}
   - component: {fileID: 178947860}
   - component: {fileID: 178947859}
-  - component: {fileID: 178947862}
   - component: {fileID: 178947863}
+  - component: {fileID: 178947864}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -209,28 +209,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178947858}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21621495, y: -0.7741529, z: 0.34571615, w: 0.48416817}
-  m_LocalPosition: {x: 42.43648, y: 52.654217, z: 20.65624}
+  m_LocalRotation: {x: 0.012134207, y: -0.926687, z: 0.3744355, w: 0.030034121}
+  m_LocalPosition: {x: 3.5966156, y: 53.643093, z: 55.426407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 27.3, y: 0, z: 0}
---- !u!114 &178947862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178947858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6bff12eefef7d445a9576d7eb713cff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 821996553}
-  offset: {x: -10, y: 10, z: -10}
-  smoothSpeed: 5
 --- !u!114 &178947863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,6 +250,26 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &178947864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178947858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806c16c3550184a4cbb2e9bc5630e381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomList: []
+  roomColliders: []
+  salaActual: {fileID: 0}
+  player: {fileID: 821996545}
+  playerDetectado: 0
+  virtualCameraAcutal: {fileID: 0}
+  incrementalPriority: 12
+  dungeonGenerator: {fileID: 1182607702}
 --- !u!1 &821996545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
@@ -549,11 +554,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &821996553 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
-  m_PrefabInstance: {fileID: 1376249160}
+--- !u!136 &821996554
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821996545}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.25}
 --- !u!1 &1182607701
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +617,7 @@ MonoBehaviour:
   - {fileID: 9223138231268577204, guid: d9ef5e7d65cb2e146be4ed8f159d1e8b, type: 3}
   - {fileID: 844485562190532453, guid: ded582e8992f53b4aa3ffd163e5a2889, type: 3}
   - {fileID: 2932796424259655448, guid: 1c1c906fea392e148b3398147e961022, type: 3}
-  numberOfRooms: 100
+  numberOfRooms: 20
 --- !u!4 &1182607703
 Transform:
   m_ObjectHideFlags: 0
@@ -674,6 +697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8670697777106522171, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.359
@@ -700,6 +727,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 821996552}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 821996554}
   m_SourcePrefab: {fileID: 100100000, guid: b189da36edfb4e945a2e611b6d06f1a3, type: 3}
 --- !u!1 &1779385627
 GameObject:

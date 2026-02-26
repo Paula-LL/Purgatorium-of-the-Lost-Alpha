@@ -757,6 +757,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 21e80645897f32c4d957c7c7c51f5406, type: 2}
+    - target: {fileID: 1835557735704993379, guid: a319656beb0657d478eeaa0a494c5e14, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 2499187786806096771}
     - target: {fileID: 3788659058393112018, guid: a319656beb0657d478eeaa0a494c5e14, type: 3}
       propertyPath: m_Name
       value: Room_Door_1
