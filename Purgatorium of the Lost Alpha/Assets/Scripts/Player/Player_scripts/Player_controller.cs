@@ -22,7 +22,7 @@ public class Player_controller : MonoBehaviour
     }
 
     public HealthBar healthBar;
-
+    public Animator animator;
     public Movement currentMovement;
     public PlayerStats currentPlayerStats;
 
@@ -50,8 +50,10 @@ public class Player_controller : MonoBehaviour
         currentMovement = new Movement();
         currentPlayerStats = new PlayerStats();
         controller = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
         ApplyLoversNormalModifiers(currentPlayerStats);
         healthBar.UpdateHealthBar();
+      
     }
 
     void Update()
@@ -70,6 +72,12 @@ public class Player_controller : MonoBehaviour
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, currentMovement.rotationSpeed * Time.deltaTime);
+            animator.SetFloat("Speed", 1);
+            animator.SetBool("IsAttacking", false);
+        }
+        else
+        {
+            animator.SetFloat("Speed", 0);
         }
 
         if (!isDashing && moveDirection.magnitude > 0.1f)
@@ -77,6 +85,7 @@ public class Player_controller : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.JoystickButton3))
             {
                 StartDash();
+                animator.SetBool("IsDashing", true);
             }
         }
         else if (isDashing)
@@ -85,11 +94,15 @@ public class Player_controller : MonoBehaviour
             if (dashTimeLeft <= 0)
             {
                 isDashing = false;
+                animator.SetBool("IsDashing", false);
             }
         }
 
         float speed = isDashing ? currentMovement.dashSpeed : currentMovement.moveSpeed;
+        
         controller.Move(moveDirection * speed * Time.deltaTime);
+
+       
     }
 
     void HandleAttack()
@@ -99,13 +112,16 @@ public class Player_controller : MonoBehaviour
 
         if (attackKeyboard || attackGamepad)
         {
+            animator.SetBool("IsAttacking", true);
             PerformAttack();
         }
+        
     }
 
     void PerformAttack()
     {
         Debug.Log("Ataque realizado");
+       
     }
 
     void StartDash()
@@ -143,6 +159,7 @@ public class Player_controller : MonoBehaviour
     void Die()
     {
         Debug.Log("Jugador ha muerto");
+        animator.SetBool("IsDead", true );
         Destroy(gameObject);
     }
 
