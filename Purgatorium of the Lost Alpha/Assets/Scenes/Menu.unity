@@ -467,7 +467,7 @@ MonoBehaviour:
   canvasDesactivarMenu1: {fileID: 519372726}
   canvasActivarCreditos: {fileID: 648763849}
   canvasDesactivarMenu: {fileID: 519372726}
-  sonidoBoton: {fileID: 8300000, guid: 96ca78c2c0ed2f049adc5c37392fa6b4, type: 3}
+  sonidoBoton: {fileID: 8300000, guid: 03ce9a1208058ce45a2a7b4e1627cebf, type: 3}
   audioSourceBoton: {fileID: 485761615}
 --- !u!82 &485761615
 AudioSource:
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   canvasParaActivar: {fileID: 519372726}
   canvasParaDesactivar: {fileID: 643976757}
   botonAlternarCanvas: {fileID: 537918922}
-  sonidoBoton: {fileID: 8300000, guid: 96ca78c2c0ed2f049adc5c37392fa6b4, type: 3}
+  sonidoBoton: {fileID: 8300000, guid: 03ce9a1208058ce45a2a7b4e1627cebf, type: 3}
   audioSourceBoton: {fileID: 485761615}
   audioMixer: {fileID: 0}
   parametroMusica: MusicaFondo
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   canvasActivar: {fileID: 519372726}
   canvasDesactivar: {fileID: 648763849}
   botonActivar: {fileID: 581282621}
-  sonidoClick: {fileID: 8300000, guid: 96ca78c2c0ed2f049adc5c37392fa6b4, type: 3}
+  sonidoClick: {fileID: 8300000, guid: 03ce9a1208058ce45a2a7b4e1627cebf, type: 3}
   audioSource: {fileID: 485761615}
 --- !u!223 &648763849 stripped
 Canvas:
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   canvasActivar: {fileID: 519372726}
   canvasDesactivar: {fileID: 687755685}
   botonActivar: {fileID: 687755684}
-  sonidoClick: {fileID: 8300000, guid: 96ca78c2c0ed2f049adc5c37392fa6b4, type: 3}
+  sonidoClick: {fileID: 8300000, guid: 03ce9a1208058ce45a2a7b4e1627cebf, type: 3}
   audioSource: {fileID: 485761615}
 --- !u!114 &765355402 stripped
 MonoBehaviour:
