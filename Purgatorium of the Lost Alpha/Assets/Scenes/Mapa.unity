@@ -151,6 +151,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1372951015}
     - target: {fileID: 5346194330241172345, guid: 9fe1f507844beab42aec712678871419, type: 3}
+      propertyPath: characterDamageParticles
+      value: 
+      objectReference: {fileID: 5305668135857513768, guid: d4625c4ed2e6e7f47abce3f217e41c26, type: 3}
+    - target: {fileID: 5346194330241172345, guid: 9fe1f507844beab42aec712678871419, type: 3}
       propertyPath: currentMovement.moveSpeed
       value: 5
       objectReference: {fileID: 0}
@@ -172,7 +176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8377711485118895629, guid: 9fe1f507844beab42aec712678871419, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 8377711485118895629, guid: 9fe1f507844beab42aec712678871419, type: 3}
       propertyPath: m_LocalPosition.z
@@ -526,6 +530,7 @@ GameObject:
   - component: {fileID: 960174287}
   - component: {fileID: 960174286}
   - component: {fileID: 960174288}
+  - component: {fileID: 960174289}
   m_Layer: 0
   m_Name: DungeonGenerator
   m_TagString: Untagged
@@ -556,6 +561,10 @@ MonoBehaviour:
   - {fileID: 9223138231268577204, guid: d9ef5e7d65cb2e146be4ed8f159d1e8b, type: 3}
   - {fileID: 844485562190532453, guid: ded582e8992f53b4aa3ffd163e5a2889, type: 3}
   - {fileID: 2932796424259655448, guid: 1c1c906fea392e148b3398147e961022, type: 3}
+  prefabsEnemigos:
+  - {fileID: 1064309303112416945, guid: 6fe0a574ddab53c48bc90dc28e77284a, type: 3}
+  - {fileID: 1064309303112416945, guid: 15bab123cf9c53f4d95ccbcd70ab3205, type: 3}
+  TeletransBoss: {fileID: 9191711763945429678, guid: b53dac726be43f14698e55d30e19615d, type: 3}
   numberOfRooms: 20
 --- !u!4 &960174287
 Transform:
@@ -592,6 +601,20 @@ MonoBehaviour:
   virtualCameraAcutal: {fileID: 0}
   incrementalPriority: 12
   dungeonGenerator: {fileID: 960174286}
+--- !u!114 &960174289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960174285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83a03a7b5503304d974a1c0bc7dbec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  sceneName: GameOver
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

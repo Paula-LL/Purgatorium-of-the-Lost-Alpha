@@ -15,6 +15,7 @@ public class PlayerAttack : MonoBehaviour
     private Color originalColor;
     private LineRenderer lineRenderer;
     public List<AttackModifier> modifierAttackList = new List<AttackModifier>();
+    public BossHealth bossHealth;
 
 
     void Start()
@@ -78,6 +79,10 @@ public class PlayerAttack : MonoBehaviour
                     enemy.TakeDamage(attack.attackDamage);
                 }
             }
+            if (col.CompareTag("Boss"))
+            {
+                bossHealth.RecibirDanio(attack.attackDamage);
+            }
         }
     }
 
@@ -120,8 +125,8 @@ public class Attack
 
     public Attack()
     {
-        this.attackDistance = 1.2f;
-        this.attackRadius = 0.4f;
+        this.attackDistance = 2f;
+        this.attackRadius = 1f;
         this.attackDuration = 0.2f;
         this.attackDamage = 1;
         this.circleSegments = 30;

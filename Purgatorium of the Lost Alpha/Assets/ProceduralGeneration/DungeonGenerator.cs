@@ -7,6 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.EventSystems.EventTrigger;
+using Unity.VisualScripting;
 
 public enum RoomTypes
 {
@@ -33,6 +34,8 @@ public class DungeonGenerator : MonoBehaviour
 
     public List<GameObject> roomPrefabs;
     public List<GameObject> colorIndicators;
+    public List<GameObject> prefabsEnemigos;
+    public GameObject TeletransBoss;
     public int numberOfRooms;
     //public List<Enemy> enemyPrefabs;
     //private List<Enemy> _enemyInstances;
@@ -109,7 +112,7 @@ public class DungeonGenerator : MonoBehaviour
 
         InstantiateDungeon();
 
-        //SpawnEnemies();
+        SpawnEnemiesInRandomRooms();
         SpawnSpecialRooms();
     }
 
@@ -419,10 +422,37 @@ public class DungeonGenerator : MonoBehaviour
             else if (room.type == RoomTypes.BOSS)
             {
                 Instantiate(colorIndicators[1], new Vector3( room.xPosition * 51, 0.3f, room.zPosition * 51), Quaternion.identity);
+                Instantiate(TeletransBoss, new Vector3(room.xPosition * 51, 0.3f, room.zPosition * 51), Quaternion.identity);
             }
         }
     }
-
+    private void SpawnEnemiesInRandomRooms()
+    {
+        for (int i = 0; i < _dungeonRooms.Count; ++i)
+        {
+            DungeonRoom room = _dungeonRooms[i];
+            int randomRNGRoom = UnityEngine.Random.Range(0, 50);
+            if (randomRNGRoom < 15)
+            {
+                int numeroDeEnemigosPorSala = (int)UnityEngine.Random.Range(3, 5);
+                 for (int j = 0; j < numeroDeEnemigosPorSala; j++)
+                 {
+                    int randomEnemy = UnityEngine.Random.Range(0, 50);
+                    int randomXPosition = UnityEngine.Random.Range(-10, 10);
+                    int randomZPosition = UnityEngine.Random.Range(-10, 10);
+                    if (randomEnemy <= 25)
+                    {
+                        Instantiate(prefabsEnemigos[0], new Vector3(room.xPosition * 51 + randomXPosition, 0.3f, room.zPosition * 51 + randomZPosition), Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(prefabsEnemigos[1], new Vector3(room.xPosition * 51 + randomXPosition, 0.3f, room.zPosition * 51 + randomZPosition), Quaternion.identity);
+                    }
+                    
+                 }
+            }
+        }
+    }
     #endregion
 
     #region Enemies

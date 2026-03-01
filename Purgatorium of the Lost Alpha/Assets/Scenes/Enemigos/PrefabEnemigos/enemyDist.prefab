@@ -40,6 +40,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fcf6fb56c3d29b14a8baaacb6a7c42a0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fcf6fb56c3d29b14a8baaacb6a7c42a0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fcf6fb56c3d29b14a8baaacb6a7c42a0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fcf6fb56c3d29b14a8baaacb6a7c42a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1029034
       objectReference: {fileID: 0}
@@ -162,6 +174,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1185306056403853278, guid: 7e44fb460da361f47b84424fa9ee4dd6, type: 3}
   shootPoint: {fileID: 735387317694105381}
   shootCooldown: 2
+  maxHealth: 3
 --- !u!95 &4480069178612244052
 Animator:
   serializedVersion: 5

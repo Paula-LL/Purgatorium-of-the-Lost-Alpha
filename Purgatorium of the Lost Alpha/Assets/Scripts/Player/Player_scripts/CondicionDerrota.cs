@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class CondicionDerrota : MonoBehaviour
 {
     public string playerTag = "Player";
-    public string sceneName;
+    public string sceneName = "GameOver" ;
 
     void Update()
     {
