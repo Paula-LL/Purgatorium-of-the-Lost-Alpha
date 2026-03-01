@@ -75,12 +75,12 @@ public class EnemigoBase : MonoBehaviour
 
         if (timeInRange >= lastDamageTime + timeBetweenAttacks)
         {
-            //DealDamageToPlayer();
+            DealDamageToPlayer();
             lastDamageTime = timeInRange;
         }
     }
 
-   /* void DealDamageToPlayer()
+  void DealDamageToPlayer()
     {
         if (player != null)
         {
@@ -88,7 +88,7 @@ public class EnemigoBase : MonoBehaviour
             if (playerScript != null)
                 playerScript.TakeDamage(damagePerAttack);
         }
-    }*/
+    }
 
     void UpdateAnimation(float speed)
     {

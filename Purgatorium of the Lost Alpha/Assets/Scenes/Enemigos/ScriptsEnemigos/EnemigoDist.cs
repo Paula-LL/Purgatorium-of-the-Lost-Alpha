@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemigoDis : MonoBehaviour
+public class EnemigoDist : MonoBehaviour
 {
     [Header("Follow Settings")]
     [SerializeField] private string playerTag = "Player";
@@ -12,11 +12,17 @@ public class EnemigoDis : MonoBehaviour
     [SerializeField] private Transform shootPoint;
     [SerializeField] private float shootCooldown = 2f;
 
+    [Header("Health Settings")] 
+    [SerializeField] private float maxHealth = 3f; 
+    private float currentHealth; 
+
     private Transform player;
     private float nextShootTime;
 
     void Start()
     {
+        currentHealth = maxHealth; 
+
         GameObject playerObj = GameObject.FindGameObjectWithTag(playerTag);
         if (playerObj != null)
             player = playerObj.transform;
@@ -52,5 +58,15 @@ public class EnemigoDis : MonoBehaviour
         if (projectilePrefab == null || shootPoint == null) return;
 
         Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

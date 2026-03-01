@@ -20,7 +20,7 @@ public class ProjectileEnemy : MonoBehaviour
         }
         else
         {
-            direction = transform.forward; // si no hay player, dispara hacia adelante
+            direction = transform.forward; 
         }
 
         // Rotar el proyectil hacia la dirección
@@ -39,8 +39,8 @@ public class ProjectileEnemy : MonoBehaviour
         // Si choca con el player → destruir y aplicar daño
         if (other.CompareTag(playerTag))
         {
-            // Aplicar daño si quieres:
-            // other.GetComponent<Player_controller>()?.TakeDamage(1);
+            // Aplicar daño 
+            other.GetComponent<Player_controller>()?.TakeDamage(1);
 
             Destroy(gameObject);
         }
