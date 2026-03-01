@@ -141,7 +141,7 @@ public class Ataque2 : MonoBehaviour
 
         if (other.CompareTag(etiquetaJugador))
         {
-            PlayerController pc = other.GetComponent<PlayerController>();
+            Player_controller pc = other.GetComponent<Player_controller>();
             if (pc != null) pc.TakeDamage(danio);
         }
     }

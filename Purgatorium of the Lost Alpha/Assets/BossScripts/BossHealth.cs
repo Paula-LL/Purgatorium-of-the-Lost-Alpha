@@ -10,7 +10,7 @@ public class BossHealth : MonoBehaviour
 
     public float VidaActual => vidaActual;
     public float VidaMaxima => vidaMaxima;
-    public bool  EstaMuerto => vidaActual <= 0f;
+    public bool EstaMuerto => vidaActual <= 0f;
 
     void Start()
     {
@@ -22,7 +22,7 @@ public class BossHealth : MonoBehaviour
         if (EstaMuerto) return;
 
         vidaActual -= cantidad;
-        vidaActual  = Mathf.Max(vidaActual, 0f);
+        vidaActual = Mathf.Max(vidaActual, 0f);
 
         Debug.Log($"[BossHealth] {gameObject.name} recibió {cantidad} de daño. Vida: {vidaActual}/{vidaMaxima}");
 
@@ -33,5 +33,8 @@ public class BossHealth : MonoBehaviour
     private void Morir()
     {
         Debug.Log($"[BossHealth] {gameObject.name} ha muerto.");
+
+        // Destruir el objeto del Boss
+        Destroy(gameObject);
     }
 }

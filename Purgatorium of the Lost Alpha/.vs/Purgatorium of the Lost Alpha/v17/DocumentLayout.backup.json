@@ -3,44 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|c:\\users\\orive\\desktop\\projfin2damvialpah\\purgatorium of the lost alpha\\assets\\proceduralgeneration\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\proceduralgeneration\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\assets\\scripts\\player\\player_scripts\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_scripts\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|c:\\users\\orive\\desktop\\projfin2damvialpah\\purgatorium of the lost alpha\\assets\\proceduralgeneration\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\proceduralgeneration\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\assets\\scripts\\player\\player_scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\Ataque1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\BossScripts\\Ataque1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|c:\\users\\orive\\desktop\\projfin2damvialpah\\purgatorium of the lost alpha\\assets\\bossscripts\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\bossscripts\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\ScriptCreditos\\BotonCreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\ScriptCreditos\\BotonCreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|c:\\users\\orive\\desktop\\projfin2damvialpah\\purgatorium of the lost alpha\\assets\\scenes\\scriptmenu\\condiciondevictoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptmenu\\condiciondevictoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\BossScripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|c:\\users\\orive\\desktop\\projfin2damvialpah\\purgatorium of the lost alpha\\assets\\scenes\\scriptmenu\\escenavictoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptmenu\\escenavictoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\BossHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\BossScripts\\BossHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\assets\\scenes\\enemigos\\scriptsenemigos\\proyectilbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\enemigos\\scriptsenemigos\\proyectilbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\Ataque2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\BossScripts\\Ataque2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\assets\\scenes\\enemigos\\scriptsenemigos\\enemigodist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\enemigos\\scriptsenemigos\\enemigodist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\assets\\scenes\\enemigos\\scriptsenemigos\\enemigobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1A4EAA-85CE-C4B8-7516-47F69B36D953}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\enemigos\\scriptsenemigos\\enemigobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoDist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoDist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scripts\\LizePaula\\HealthBar\\Scripts\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LizePaula\\HealthBar\\Scripts\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,127 +46,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\ProceduralGeneration\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\ProceduralGeneration\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\ProceduralGeneration\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\ProceduralGeneration\\PlayerController.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAmwNEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BossHealth.cs",
+              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\BossHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\BossScripts\\BossHealth.cs",
+              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\BossHealth.cs",
+              "RelativeToolTip": "Assets\\BossScripts\\BossHealth.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:05:53.879Z",
+              "WhenOpened": "2026-03-01T16:36:53.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CondiciondeVictoria.cs",
+              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\ScriptMenu\\CondiciondeVictoria.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\ScriptMenu\\CondiciondeVictoria.cs",
+              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\ScriptMenu\\CondiciondeVictoria.cs",
+              "RelativeToolTip": "Assets\\Scenes\\ScriptMenu\\CondiciondeVictoria.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T16:32:18.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EscenaVictoria.cs",
+              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\ScriptMenu\\EscenaVictoria.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\ScriptMenu\\EscenaVictoria.cs",
+              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\ScriptMenu\\EscenaVictoria.cs",
+              "RelativeToolTip": "Assets\\Scenes\\ScriptMenu\\EscenaVictoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T16:30:33.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PlayerAttack.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\ProceduralGeneration\\PlayerAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\ProceduralGeneration\\PlayerAttack.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\ProceduralGeneration\\PlayerAttack.cs",
-              "RelativeToolTip": "Assets\\ProceduralGeneration\\PlayerAttack.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAmwIsAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scripts\\Player\\Player_scripts\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player_scripts\\PlayerAttack.cs",
+              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scripts\\Player\\Player_scripts\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player_scripts\\PlayerAttack.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:05:39.354Z",
+              "WhenOpened": "2026-03-01T15:21:51.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NewBehaviourScript.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\NewBehaviourScript.cs",
-              "RelativeDocumentMoniker": "Assets\\BossScripts\\NewBehaviourScript.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\NewBehaviourScript.cs",
-              "RelativeToolTip": "Assets\\BossScripts\\NewBehaviourScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T12:21:52.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BossHealth.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\BossHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\BossScripts\\BossHealth.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\BossHealth.cs",
-              "RelativeToolTip": "Assets\\BossScripts\\BossHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:39:31.865Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Ataque2.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\Ataque2.cs",
-              "RelativeDocumentMoniker": "Assets\\BossScripts\\Ataque2.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\Ataque2.cs",
-              "RelativeToolTip": "Assets\\BossScripts\\Ataque2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:39:28.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ataque1.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\Ataque1.cs",
-              "RelativeDocumentMoniker": "Assets\\BossScripts\\Ataque1.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\BossScripts\\Ataque1.cs",
-              "RelativeToolTip": "Assets\\BossScripts\\Ataque1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:39:21.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BotonCreditos.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\ScriptCreditos\\BotonCreditos.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\ScriptCreditos\\BotonCreditos.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\ScriptCreditos\\BotonCreditos.cs",
-              "RelativeToolTip": "Assets\\Scenes\\ScriptCreditos\\BotonCreditos.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T17:44:04.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProyectilBase.cs",
-              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
-              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
-              "RelativeToolTip": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:38:59.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "EnemigoDist.cs",
               "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoDist.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoDist.cs",
               "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoDist.cs",
               "RelativeToolTip": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoDist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:20:40.763Z"
+              "WhenOpened": "2026-03-01T14:46:22.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "EnemigoBase.cs",
               "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoBase.cs",
               "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoBase.cs",
               "RelativeToolTip": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\EnemigoBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowFoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:09:14.308Z"
+              "WhenOpened": "2026-03-01T14:43:39.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scripts\\LizePaula\\HealthBar\\Scripts\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LizePaula\\HealthBar\\Scripts\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scripts\\LizePaula\\HealthBar\\Scripts\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LizePaula\\HealthBar\\Scripts\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T14:21:03.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player_controller.cs",
+              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scripts\\Player\\Player_scripts\\Player_controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player_scripts\\Player_controller.cs",
+              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scripts\\Player\\Player_scripts\\Player_controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player_scripts\\Player_controller.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswCEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T13:43:03.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProyectilBase.cs",
+              "DocumentMoniker": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
+              "ToolTip": "C:\\Users\\orive\\Desktop\\ProjFin2DamViAlpah\\Purgatorium of the Lost Alpha\\Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Enemigos\\ScriptsEnemigos\\ProyectilBase.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T14:46:36.831Z"
             }
           ]
         }
