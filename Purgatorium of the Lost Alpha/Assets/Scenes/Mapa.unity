@@ -588,6 +588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 736839534}
   - component: {fileID: 736839533}
+  - component: {fileID: 736839535}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -625,6 +626,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &736839535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736839531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8def3dbe056235b4c8f7ac58371a3866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opcionesCanvas: {fileID: 321711492}
+  audioMixer: {fileID: 24100000, guid: 6f7677f8fde85394c83478cf2a51547d, type: 2}
+  parametroMusica: MusicaFondo
+  parametroEfectos: MusicaGeneral
+  volumenSliderMusica: {fileID: 1601730142616827693}
+  volumenEfectosSlider: {fileID: 864507159670728909}
+  pantallaCompletaToggle: {fileID: 5033563189401150742}
+  calidadVideo: {fileID: 3241612160192233174}
+  cambiarEscenaButton: {fileID: 8242871799995736120}
+  salirButton: {fileID: 3080045794982042776}
+  escenaMenu: Menu
+  escenaVictoria: Victoria
 --- !u!1 &960174285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,7 +2506,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4804750620804731895}
-  - component: {fileID: 4804750620804731896}
   m_Layer: 5
   m_Name: MenuPausa
   m_TagString: Untagged
@@ -2807,30 +2831,6 @@ RectTransform:
   m_AnchoredPosition: {x: 400.00024, y: 225.031}
   m_SizeDelta: {x: 1920, y: 1080.1487}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4804750620804731896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3307574811863626764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8def3dbe056235b4c8f7ac58371a3866, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  opcionesCanvas: {fileID: 321711492}
-  audioMixer: {fileID: 24100000, guid: 6f7677f8fde85394c83478cf2a51547d, type: 2}
-  parametroMusica: MusicaFondo
-  parametroEfectos: MusicaGeneral
-  volumenSliderMusica: {fileID: 1601730142616827693}
-  volumenEfectosSlider: {fileID: 864507159670728909}
-  pantallaCompletaToggle: {fileID: 5033563189401150742}
-  calidadVideo: {fileID: 3241612160192233174}
-  cambiarEscenaButton: {fileID: 8242871799995736120}
-  salirButton: {fileID: 3080045794982042776}
-  escenaMenu: Menu
-  escenaVictoria: Victoria
 --- !u!224 &4848557761177176118
 RectTransform:
   m_ObjectHideFlags: 0
