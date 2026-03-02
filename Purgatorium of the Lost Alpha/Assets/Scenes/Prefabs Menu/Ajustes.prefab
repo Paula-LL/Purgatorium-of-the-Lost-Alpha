@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 725192076046895316}
   - component: {fileID: 135293706323339673}
   - component: {fileID: 3464449372372102695}
-  - component: {fileID: 4806231361826628443}
+  - component: {fileID: 1827466174099146277}
   m_Layer: 5
   m_Name: Ajustes
   m_TagString: Untagged
@@ -1336,7 +1336,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4806231361826628443
+--- !u!114 &1827466174099146277
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1345,13 +1345,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3118066099565287384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68234891df1935240933091927d6e06c, type: 3}
+  m_Script: {fileID: 11500000, guid: 73bc7d2c0464b0a459a7227ac3157d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasParaActivar: {fileID: 0}
+  canvasParaActivar: {fileID: 725192076046895316}
   canvasParaDesactivar: {fileID: 725192076046895316}
   botonAlternarCanvas: {fileID: 3691229770263401338}
-  audioMixer: {fileID: 24100000, guid: 6c6b19c05e1cbac4a87c43cd55499597, type: 2}
+  sonidoBoton: {fileID: 0}
+  audioSourceBoton: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: 6f7677f8fde85394c83478cf2a51547d, type: 2}
   parametroMusica: MusicaFondo
   parametroEfectos: MusicaGeneral
   volumenSliderMusica: {fileID: 5952089016271021122}

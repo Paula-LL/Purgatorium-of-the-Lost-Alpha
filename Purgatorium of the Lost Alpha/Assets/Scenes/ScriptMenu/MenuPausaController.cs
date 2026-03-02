@@ -54,7 +54,7 @@ public class MenuPausaController : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            
 
             // Suscribirse al evento de cambio de escena
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -198,27 +198,28 @@ public class MenuPausaController : MonoBehaviour
             AplicarVolumenEfectos(volumenEfectosSlider.value);
     }
 
-    void Update()
+    private void Update()
+    {
+        detectarteclado();
+    }
+    public void detectarteclado()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (opcionesCanvas != null)
-            {
-                bool activar = !opcionesCanvas.gameObject.activeSelf;
-                opcionesCanvas.gameObject.SetActive(activar);
+            bool activar = !opcionesCanvas.gameObject.activeSelf;
+            opcionesCanvas.gameObject.SetActive(true);
 
-                if (activar)
-                {
-                    PausarFisicas();
-                }
-                else
-                {
-                    ReanudarFisicas();
-                }
+            if (activar)
+            {
+                PausarFisicas();
+            }
+            else
+            {
+                ReanudarFisicas();
+                opcionesCanvas.gameObject.SetActive(false);
             }
         }
     }
-
     void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;

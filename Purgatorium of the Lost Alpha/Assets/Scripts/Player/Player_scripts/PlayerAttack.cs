@@ -15,6 +15,8 @@ public class PlayerAttack : MonoBehaviour
     private Color originalColor;
     private LineRenderer lineRenderer;
     public List<AttackModifier> modifierAttackList = new List<AttackModifier>();
+    public EnemigoBase enemigoBase;
+    public EnemigoDist enemigoDist;
     public BossHealth bossHealth;
 
 
@@ -73,10 +75,16 @@ public class PlayerAttack : MonoBehaviour
             if (col.CompareTag("Enemy"))
             {
                 // SOLO ESTA LÍNEA CAMBIÓ:
-                EnemigoDist enemy = col.GetComponent<EnemigoDist>();
-                if (enemy != null)
+                enemigoDist = col.GetComponent<EnemigoDist>();
+                enemigoBase = col.GetComponent<EnemigoBase>();    
+                if (enemigoDist != null)
                 {
-                    enemy.TakeDamage(attack.attackDamage);
+                    enemigoDist.TakeDamage(attack.attackDamage);
+
+                }
+                else if (enemigoBase!= null)
+                {
+                   enemigoBase.TakeDamage(attack.attackDamage);
                 }
             }
             if (col.CompareTag("Boss"))
@@ -125,9 +133,9 @@ public class Attack
 
     public Attack()
     {
-        this.attackDistance = 2f;
-        this.attackRadius = 1f;
-        this.attackDuration = 0.2f;
+        this.attackDistance = 2.5f;
+        this.attackRadius = 2.5f;
+        this.attackDuration = 0.8f;
         this.attackDamage = 1;
         this.circleSegments = 30;
     }

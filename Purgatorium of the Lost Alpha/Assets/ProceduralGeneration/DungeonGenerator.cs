@@ -35,6 +35,7 @@ public class DungeonGenerator : MonoBehaviour
     public List<GameObject> roomPrefabs;
     public List<GameObject> colorIndicators;
     public List<GameObject> prefabsEnemigos;
+    public List<GameObject> prefabsCartas;
     public GameObject TeletransBoss;
     public int numberOfRooms;
     //public List<Enemy> enemyPrefabs;
@@ -113,6 +114,7 @@ public class DungeonGenerator : MonoBehaviour
         InstantiateDungeon();
 
         SpawnEnemiesInRandomRooms();
+        SpawnCards();
         SpawnSpecialRooms();
     }
 
@@ -428,7 +430,7 @@ public class DungeonGenerator : MonoBehaviour
     }
     private void SpawnEnemiesInRandomRooms()
     {
-        for (int i = 0; i < _dungeonRooms.Count; ++i)
+        for (int i = 1; i < _dungeonRooms.Count; ++i)
         {
             DungeonRoom room = _dungeonRooms[i];
             int randomRNGRoom = UnityEngine.Random.Range(0, 50);
@@ -451,6 +453,37 @@ public class DungeonGenerator : MonoBehaviour
                     
                  }
             }
+        }
+    }
+
+    private void SpawnCards()
+    {
+        for (int i = 0; i < _dungeonRooms.Count; ++i)
+        {
+            DungeonRoom room = _dungeonRooms[i];
+            int randomRNGRoom = UnityEngine.Random.Range(0, 50);
+            if (randomRNGRoom < 5)
+            {
+                int randomCartaAInstanciar = UnityEngine.Random.Range(0, 100);
+                if (randomCartaAInstanciar < 10)
+                {
+                    Instantiate(prefabsCartas[0], new Vector3(room.xPosition * 51, 0.3f, room.zPosition * 51), Quaternion.identity);
+                }
+                else if (randomCartaAInstanciar >= 10 && randomCartaAInstanciar < 40)
+                {
+                    Instantiate(prefabsCartas[1], new Vector3(room.xPosition * 51, 0.3f, room.zPosition * 51), Quaternion.identity);
+
+                }
+                else if (randomCartaAInstanciar >= 40 && randomCartaAInstanciar < 70)
+                {
+                    Instantiate(prefabsCartas[2], new Vector3(room.xPosition * 51, 0.3f, room.zPosition * 51), Quaternion.identity);
+
+                }
+                else if (randomCartaAInstanciar >= 70 && randomCartaAInstanciar <= 100)
+                {
+                    Instantiate(prefabsCartas[3], new Vector3(room.xPosition * 51, 0.3f, room.zPosition * 51), Quaternion.identity);
+                }
+            } 
         }
     }
     #endregion

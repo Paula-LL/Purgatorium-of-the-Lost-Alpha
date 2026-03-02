@@ -33,6 +33,7 @@ public class Player_controller : MonoBehaviour
 
     public List<LoversNormalModifier> stats = new List<LoversNormalModifier>();
     public List<ChariotNormalModifier> modifierMovementList = new List<ChariotNormalModifier>();
+    public AudioSource playerAudio;
 
     [Header("Particles")]
     [SerializeField]
@@ -74,10 +75,12 @@ public class Player_controller : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, currentMovement.rotationSpeed * Time.deltaTime);
             animator.SetFloat("Speed", 1);
             animator.SetBool("IsAttacking", false);
+            playerAudio.Play();
         }
         else
         {
             animator.SetFloat("Speed", 0);
+            playerAudio.Pause();
         }
 
         if (!isDashing && moveDirection.magnitude > 0.1f)
@@ -120,6 +123,7 @@ public class Player_controller : MonoBehaviour
 
     void PerformAttack()
     {
+        
         Debug.Log("Ataque realizado");
        
     }

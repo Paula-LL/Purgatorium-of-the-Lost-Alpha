@@ -63,7 +63,7 @@ public class EnemigoDist : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
-
+        Debug.Log("El enemigo a distancia ha sufrido" + damage + " de daño");
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
