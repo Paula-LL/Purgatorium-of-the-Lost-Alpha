@@ -6,6 +6,7 @@ public class EnemigoBase : MonoBehaviour
     [Header("Follow Settings")]
     [SerializeField] private string playerTag = "Player";
     [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private float detectionRange = 10f; // Distancia para empezar a seguir
 
     [Header("Damage Settings")]
     [SerializeField] private float timeBetweenAttacks = 3f;
@@ -17,6 +18,7 @@ public class EnemigoBase : MonoBehaviour
 
     private Transform player;
     private bool playerInRange = false;
+    private bool playerDetected = false;
     private float timeInRange = 0f;
     private float lastDamageTime = 0f;
     private Animator animator;
@@ -42,12 +44,29 @@ public class EnemigoBase : MonoBehaviour
     {
         if (currentHealth <= 0) return;
 
-        float speed = FollowPlayer();
+        // Verificar distancia al player
+        CheckPlayerDetection();
+
+        float speed = 0f;
+
+        // Solo seguir si el player está detectado
+        if (playerDetected)
+        {
+            speed = FollowPlayer();
+        }
 
         if (playerInRange)
             ProcessDamage();
 
         UpdateAnimation(speed);
+    }
+
+    void CheckPlayerDetection()
+    {
+        if (player == null) return;
+
+        float distance = Vector3.Distance(transform.position, player.position);
+        playerDetected = distance <= detectionRange;
     }
 
     float FollowPlayer()
@@ -80,7 +99,7 @@ public class EnemigoBase : MonoBehaviour
         }
     }
 
-  void DealDamageToPlayer()
+    void DealDamageToPlayer()
     {
         if (player != null)
         {

@@ -213,6 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   moveSpeed: 3
+  detectionRange: 20
   timeBetweenAttacks: 3
   damagePerAttack: 1
   maxHealth: 3
